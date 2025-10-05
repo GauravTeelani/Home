@@ -1,0 +1,151 @@
+#sec_1{
+    background-image: url(bg.jpg);
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#d_1{
+    color: rgb(242, 135, 5);
+    font-size: 30px;
+}
+.h2{
+    color: rgb(235, 13, 13);
+    font-size: 90px;
+    margin-left: 100px;
+}
+#la_1{
+    color: yellow;
+    font-size: 50px;
+}
+input::placeholder{
+    color:red;
+    font-size: 20px;
+}
+button {
+  background-color:rgb(194, 194, 21);  /* Initial color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color:orange;  /* Color on hover */
+}
+#sec_2{
+background-image: url(bg.jpg);
+height: 1000px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.d_2{
+    color: yellow;
+    font-size: 30px;
+    margin-left: 50px;
+}
+input{
+    color: yellow;
+}
+#sec_3{
+    background-image: url(bg.jpg);
+height: 1000px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#d_3{
+    color:yellow;
+    font-size: 40px;
+    margin-left: 150px;
+}
+.n_1{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(71, 64, 64);
+    z-index: 100;
+    color: rgb(68, 60, 60);
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    font-size: 40px;
+}
+.d_4{
+    margin-left: 50px;
+    transform:0.3s ease;
+}
+.d_4 :hover li{
+    transform: scale(1.1);
+}
+.n_2{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(71, 64, 64);
+    z-index: 100;
+    color: rgb(68, 60, 60);
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    font-size: 40px;
+}
+.img_1{
+    position: absolute;     /* Body ya relative container pe depend karega */
+    top: 120px;             /* Nav bar ke baad thoda neeche */
+    right: 100px;            /* Right side pe align */
+    width: 300px;           /* Size adjust kar lo */
+    height: auto;
+    box-shadow: 0 4px 8px #0004; /* Thoda shadow, optional */
+    z-index: 1;
+    margin-top: 520px;
+    margin-right: 280px;
+}
+.img_2{
+    position: absolute;     /* Body ya relative container pe depend karega */
+    top: 120px;             /* Nav bar ke baad thoda neeche */
+    right: 100px;            /* Right side pe align */
+    width: 300px;           /* Size adjust kar lo */
+    height: auto;
+    box-shadow: 0 4px 8px #0004; /* Thoda shadow, optional */
+    z-index: 1;
+    margin-top: 300px;
+    margin-right: 600px;
+}
+.img_3{
+    position: absolute;     /* Body ya relative container pe depend karega */
+    top: 120px;             /* Nav bar ke baad thoda neeche */
+    right: 100px;            /* Right side pe align */
+    width: 300px;           /* Size adjust kar lo */
+    height: auto;
+    box-shadow: 0 4px 8px #0004; /* Thoda shadow, optional */
+    z-index: 1;
+    margin-top: 660px;
+    margin-right: 600px;
+}
+.img_4{
+    transform:0.3s ease ;
+}
+.img_4:hover{
+    transform: scale(1.1);
+}
+.img_5{
+    transform:0.3s ease ;
+}
+.img_5:hover{
+    transform: scale(1.1);
+}
+.img_6{
+    transform:0.3s ease ;
+}
+.img_6:hover{
+    transform: scale(1.1);
+}
+
+
